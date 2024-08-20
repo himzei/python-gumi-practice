@@ -14,7 +14,6 @@ image_tags = soup.find("ul", class_="list-type news-list")
 lis = image_tags.find_all("li")
 
 
-
 downloaded = 0
 
 if not os.path.exists(download_folder):
